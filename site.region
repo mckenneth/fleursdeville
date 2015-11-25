@@ -29,7 +29,10 @@
         <div id="header-wrapper">
           <header id="header" class="sqs-announcement-bar-dropzone">
             <div class="title-nav-wrapper">
-              
+              <!--MAIN NAVIGATION-->
+              <div id="desktopNav" data-content-field="navigation-mainNav" data-annotation-alignment="bottom left">
+                <squarespace:navigation navigationId="mainNav" template="navigation" />
+              </div>
               
               <a class="icon-menu" id="mobileMenu"></a>
                             
