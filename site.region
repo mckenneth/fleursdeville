@@ -32,7 +32,29 @@
 
               <!--MAIN NAVIGATION-->
               <div id="desktopNav" data-content-field="navigation-mainNav" data-annotation-alignment="bottom right">
-                <squarespace:navigation navigationId="mainNav" template="navigation" />
+                <!-- squarespace:navigation navigationId="mainNav" template="navigation" / -->
+                <nav class="main-nav">
+                    <div class="nav-wrapper">
+                      <ul class="cf">
+                          <li class="index-collection folder">
+                            <a href="/"><span>Home</span></a>
+                          </li>
+                          <li class="index-collection folder">
+                            <a href="/#about"><span>Home</span></a>
+                          </li>
+                          <li class="index-collection folder">
+                            <a href="/#events"><span>Home</span></a>
+                          </li>
+                          <li class="index-collection folder">
+                            <a href="/#contact"><span>Home</span></a>
+                          </li>
+                        
+                          <li class="blog-collection active-link">
+                            <a href="/inspiration/"><span>Inspiration</span></a> 
+                          </li>   
+                    </ul>
+                  </div>
+                </nav>
               </div>
               
               <a class="icon-menu" id="mobileMenu"></a>
