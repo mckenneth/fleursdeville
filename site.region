@@ -30,7 +30,7 @@
           <header id="header" class="sqs-announcement-bar-dropzone">
             <div class="title-nav-wrapper">
               <!--MAIN NAVIGATION-->
-              <div id="desktopNav" data-content-field="navigation-mainNav" data-annotation-alignment="bottom left">
+              <div id="desktopNav" data-content-field="navigation-mainNav" data-annotation-alignment="bottom right">
                 
                 <squarespace:navigation navigationId="mainNav" template="navigation" />
               </div>
