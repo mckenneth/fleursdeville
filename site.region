@@ -15,7 +15,7 @@
   </head>
 
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}{.if item}{.section item}{.main-image?} has-banner-image{.end}{.end}{.or}{.section collection}{.equal? typeName "index"}{.section collections}{.section 0}{.section mainImage} has-banner-image{.end}{.end}{.end}{.or}{.equal? typeName "album"}{.or}{.equal? typeName "gallery"}{.or}{.section mainImage} has-banner-image{.end}{.end}{.end}{.end}{.end}{.end}">
-  <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officiis sint, eius dignissimos dicta soluta, minus, atque dolore eveniet quo earum possimus repudiandae ipsum quidem voluptate vel odio. Laborum, possimus!</h1>
+ 
 
     <div id="mobileNav" data-content-field="navigation-mobileNav">
       <squarespace:navigation navigationId="mainNav" template="navigation" />
@@ -30,13 +30,6 @@
           <header id="header" class="sqs-announcement-bar-dropzone">
             <div class="title-nav-wrapper">
 
-            <ul>
-            <li><a href="#">test</a></li>
-            <li><a href="#">test</a></li>
-            <li><a href="#">test</a></li>
-            <li><a href="#">test</a></li>
-            
-            </ul>
               <!--MAIN NAVIGATION-->
               <div id="desktopNav" data-content-field="navigation-mainNav" data-annotation-alignment="bottom right">
                 
