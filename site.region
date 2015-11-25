@@ -31,7 +31,7 @@
             <div class="title-nav-wrapper">
               <!--MAIN NAVIGATION-->
               <div id="desktopNav" data-content-field="navigation-mainNav" data-annotation-alignment="bottom left">
-                <a href="#">Test</a>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officiis sint, eius dignissimos dicta soluta, minus, atque dolore eveniet quo earum possimus repudiandae ipsum quidem voluptate vel odio. Laborum, possimus!</h1>
                 <squarespace:navigation navigationId="mainNav" template="navigation" />
               </div>
               
