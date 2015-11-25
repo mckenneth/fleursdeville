@@ -42,7 +42,7 @@
               <h1 data-content-field="site-title" data-annotation-alignment="bottom" class="site-title">
                 <a href="/" id="top">
                 {.section logoImageUrl}
-                  <img src="{logoImageUrl}?format=400w" alt="{siteTitle}" />
+                  <img src="{logoImageUrl}?format=30h" alt="{siteTitle}" />
                 {.or}
                   {siteTitle}
                 {.end}
@@ -271,8 +271,7 @@
         <!--FOOTER WITH OPEN BLOCK FIELD-->
         <footer id="footer">
           <div class="back-to-top-link"><a href="#top"><span class="arrow"></span>Top</a></div>
-          <div class="footer-wrapper">
-            
+          <div class="footer-wrapper" style="display:none;">
             <squarespace:block-field id="footerBlocks" columns="12" label="Footer Content" />
           </div>
         </footer>
