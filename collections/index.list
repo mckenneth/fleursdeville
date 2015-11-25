@@ -25,18 +25,11 @@
 
 {.repeated section collections}
   <div class="parallax-item" data-url-id="{urlId}">
-    <div class="title-desc-wrapper over-image{.section mainImage} has-main-image{.or} no-main-image{.end}" {.section mainImage}data-color-suggested="#{colorData.suggestedBgColor}"{.end}>
-
-      {.section mainImage}
-      <div class="title-desc-image content-fill" data-content-field="main-image">
-        <img {@|image-meta} data-load="false"/>
-        <div class="image-overlay-wrapper"></div>
-      </div>
-      {.end}
-
-      
     
-    </div>
+
+
+
+
     <div class="content{.section mainImage} has-main-image{.end}">
     	<div class="content-inner{.section mainContent} has-content{.end}" data-content-field="main-content">
         <div class="title-desc-wrapper">
@@ -52,3 +45,4 @@
   </div>
   {.end}
 {.end}
+
