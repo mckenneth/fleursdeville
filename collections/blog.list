@@ -17,7 +17,9 @@
 
   {.main-image?}
     <div class="main-image-wrapper">
-      <a href="{fullUrl}"><div class="main-image content-fill"><img {@|image-meta} /></div></a>
+      /* a href="{fullUrl}" */
+      <div class="main-image content-fill"><img {@|image-meta} /></div>
+      /* </a> */
     </div>
   {.end}
 
