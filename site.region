@@ -19,6 +19,8 @@
     <div id="mobileNav" data-content-field="navigation-mobileNav">
       <squarespace:navigation navigationId="mainNav" template="navigation" />
     </div>
+
+    Mckn
   
     <div class="site-wrapper">
       <div class="site-inner-wrapper">
@@ -46,7 +48,7 @@
               </h1>
               {.end}
 
-              
+
             </div>
           </header>
         {.section item}
