@@ -25,7 +25,7 @@
 
   {.repeated section collections}
   <div class="parallax-item" data-url-id="{urlId}">
-    <div class="title-desc-wrapper over-image{.section mainImage} has-main-image{.or} no-main-image{.end}" {.section mainImage}data-color-suggested="#{colorData.suggestedBgColor}"{.end}>
+    <div style="display:none;" class="title-desc-wrapper over-image{.section mainImage} has-main-image{.or} no-main-image{.end}" {.section mainImage}data-color-suggested="#{colorData.suggestedBgColor}"{.end}>
 
       {.section mainImage}
       <div class="title-desc-image content-fill" data-content-field="main-image">
@@ -33,7 +33,6 @@
         <div class="image-overlay-wrapper"></div>
       </div>
       {.end}
-
       
     <div class="scroll-arrow"><span>SCROLL DOWN</span></div>
     </div>
